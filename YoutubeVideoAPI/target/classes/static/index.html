@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport">
+    <title>Youtube Video API</title>
+    <link href="/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+<noscript>
+    <h2>Browser not support Javascript</h2>
+</noscript>
+<div class="upload-container">
+    <div class="upload-header">
+        <h2>Youtube Video API</h2>
+    </div>
+    <div class="upload-content">
+        <div class="single-upload">
+            <h3>Upload Single File</h3>
+            <form id="singleUploadForm" name="singleUploadForm">
+                <input class="file-input" id="singleFileUploadInput" name="file" required type="file"/>
+                <button class="primary submit-btn" type="submit">Submit</button>
+            </form>
+            <div class="upload-response">
+                <div id="singleFileUploadError"></div>
+                <div id="singleFileUploadSuccess"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/main.js"></script>
+</body>
+</html>

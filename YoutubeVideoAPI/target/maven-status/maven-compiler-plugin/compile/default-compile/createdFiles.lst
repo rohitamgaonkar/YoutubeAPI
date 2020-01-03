@@ -1,0 +1,8 @@
+com\Youtube\videodemo\service\DBVideoStorageService.class
+com\Youtube\videodemo\YoutubeVideoFileApplication.class
+com\Youtube\videodemo\controller\VideoController.class
+com\Youtube\videodemo\exception\VideoPersistStorageException.class
+com\Youtube\videodemo\payload\UploadVideoResponse.class
+com\Youtube\videodemo\model\Video.class
+com\Youtube\videodemo\repository\DBVideoRepository.class
+com\Youtube\videodemo\exception\VideoNotFoundException.class
